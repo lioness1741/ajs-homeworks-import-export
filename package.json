@@ -1,0 +1,33 @@
+{
+  "name": "ajs-homeworks-import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+
+  "scripts": {
+    "start": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "babel": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioness1741/ajs-homeworks-import-export.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lioness1741/ajs-homeworks-import-export/issues"
+  },
+  "homepage": "https://github.com/lioness1741/ajs-homeworks-import-export#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "eslint": "^8.43.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
